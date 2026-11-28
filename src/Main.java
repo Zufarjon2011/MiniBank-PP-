@@ -1,12 +1,16 @@
+import users.Login;
 import users.Registration;
 
 class Main{
     public static void main(String[] args){
 
         Registration registration = new Registration();
+        Login login = new Login();
 
-        registration.register();
-        registration.register_run();
+
+        login.login_reader();
+        login.login_start();
+        login.show();
 
     }
 }
